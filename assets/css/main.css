@@ -1,0 +1,45 @@
+*{
+  font-family: 'Lemonada', cursive;
+  margin: 0 auto;
+}
+body{
+    background-color: #3CBBB1;
+}
+.contenedor{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-end;
+}
+.flex-container{
+  width: 30%;
+  margin: 10px;
+  flex-flow: column;
+}
+
+.opciones{
+  width: 70%;
+}
+a{
+  margin: 10px;
+  font-size: 30px;
+  color: #2A1E5C;
+}
+nav{
+  flex-direction: row wrap;
+  justify-content: space-between;
+  background-color: #E56399;
+}
+.textoBienvenida{
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  height: 300px;
+  background-image: url("../img/fondoBienvenida.jpg");
+
+  }
+.textoContainer{
+  justify-content: center;
+  color: #2A1E5C;
+  font-size: 150px;
+}
