@@ -100,13 +100,31 @@ background-image: url("../img/img-1.jpg");
 }
 .formulario{
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #D3A588;
 }
 .formContainer{
-  width: 50%;
+
+  width: 20%;
   height: 250px;
-  
+}
+.input{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button{
+  align-content: flex-end;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  color: #7A6563;
+  background-color: #7FD1B9;
+  padding: 25px;
+  justify-content: center;
+  text-align: center;
 }
